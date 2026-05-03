@@ -21,6 +21,7 @@ O sistema interpreta a voltagem enviada pelos sensores e define a ação necess�
 | **1.0V** | Perigo de Pane | **ALERTA CRÍTICO** | Vermelho |
 | **2.0V** | Baixo / Vazamento | **ABORT (Se Take-off)** | Vermelho/Amarelo |
 | **3.0V** | Operação Padrão | Monitoramento Ativo | Verde |
+| **4.0V** | Performance Ideal | **NÍVEL OTIMIZADO** | Ciano |
 | **5.0V** | Sobrecarga | **AVISO DE PRESSÃO** | Amarelo |
 
 ## 🚀 Lógica de Decisão Crítica
