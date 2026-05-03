@@ -40,3 +40,23 @@ Para garantir o realismo da simulação, o software foi desenhado sob os seguint
 **Desenvolvido por:** Adriano – Técnico de Manutenção e Aluno de Desenvolvimento de Sistemas (ETEC).
 **Prazo de Entrega:** 04/05/2026.
 ```
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Cessna_logo.svg/1280px-Cessna_logo.svg.png" width="300" alt="Cessna Logo">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AIRCRAFT-CESSNA%20172%20JT--A-blue?style=for-the-badge&logo=air-force" alt="Aircraft">
+  <img src="https://img.shields.io/badge/SYSTEM-EVOLUAIR%20SENTINEL-orange?style=for-the-badge" alt="System">
+</p>
+### 🛠️ Especificações do Transdutor de Fluido
+| Tensão (V) | Nível Simulado | Status do Sistema | Ação EvoluAIr |
+| :--- | :--- | :--- | :--- |
+| **1.0V** | Crítico | Perigo de Pane | **ALERTA VERMELHO** |
+| **2.0V** | Baixo | Atenção / Leak | **ABORT (Se Take-off)** |
+| **3.0V** | Nominal | Operação Padrão | Monitoramento Ativo |
+| **5.0V** | Alta Pressão | Sobrecarga | **AVISO AMARELO** |
+### 🛫 Flight Plan (Checklist de Desenvolvimento)
+- [x] Importação da Biblioteca Colorama (Agenda 11)
+- [x] Mapeamento de Sinais Analógicos (Lógica de Hardware)
+- [x] Implementação de Lógica de Decisão Crítica (Take-off/Cruise)
+- [x] Saída de Dados com Codificação de Cores ANSI
