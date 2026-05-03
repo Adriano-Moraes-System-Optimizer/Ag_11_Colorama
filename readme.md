@@ -3,6 +3,15 @@
 
 # EvoluAIr Systems - Módulo de Monitoramento de Fluidos (Protótipo)
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Cessna_logo.svg/1280px-Cessna_logo.svg.png" width="300" alt="Cessna Logo">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/AIRCRAFT-CESSNA%20172%20JT--A-blue?style=for-the-badge&logo=air-force" alt="Aircraft">
+  <img src="https://img.shields.io/badge/SYSTEM-EVOLUAIR%20SENTINEL-orange?style=for-the-badge" alt="System">
+</p>
+
+
 ## ✈️ Descrição do Projeto
 Este projeto integra as competências da **Agenda 11** do curso de Desenvolvimento de Sistemas da ETEC com o projeto autoral **EvoluAIr Systems**. Trata-se de uma simulação de ambiente real para monitoramento do fluido de arrefecimento em aeronaves leves, como o **Cessna 172 (Motor Diesel/Jet-A1)**.
 
@@ -28,7 +37,6 @@ Para garantir o realismo da simulação, o software foi desenhado sob os seguint
     ```powershell
     pip install colorama
     ```
-
 ## 📂 Como Executar
 1.  Navegue até a pasta do projeto: `.../DEV/Projetos/Ag_11_Colorama`.
 2.  Execute o script:
@@ -44,10 +52,6 @@ Para garantir o realismo da simulação, o software foi desenhado sob os seguint
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Cessna_logo.svg/1280px-Cessna_logo.svg.png" width="300" alt="Cessna Logo">
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AIRCRAFT-CESSNA%20172%20JT--A-blue?style=for-the-badge&logo=air-force" alt="Aircraft">
-  <img src="https://img.shields.io/badge/SYSTEM-EVOLUAIR%20SENTINEL-orange?style=for-the-badge" alt="System">
-</p>
 ### 🛠️ Especificações do Transdutor de Fluido
 | Tensão (V) | Nível Simulado | Status do Sistema | Ação EvoluAIr |
 | :--- | :--- | :--- | :--- |
@@ -55,6 +59,7 @@ Para garantir o realismo da simulação, o software foi desenhado sob os seguint
 | **2.0V** | Baixo | Atenção / Leak | **ABORT (Se Take-off)** |
 | **3.0V** | Nominal | Operação Padrão | Monitoramento Ativo |
 | **5.0V** | Alta Pressão | Sobrecarga | **AVISO AMARELO** |
+
 ### 🛫 Flight Plan (Checklist de Desenvolvimento)
 - [x] Importação da Biblioteca Colorama (Agenda 11)
 - [x] Mapeamento de Sinais Analógicos (Lógica de Hardware)
