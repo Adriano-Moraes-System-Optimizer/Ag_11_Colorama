@@ -1,6 +1,3 @@
-Com certeza! Este **README** foi estruturado para destacar que você não está apenas fazendo um exercício básico, mas sim desenvolvendo a lógica inicial do seu projeto **EvoluAIr Systems** aplicado ao **Cessna 172**.
-
-Ele enfatiza o uso do hardware (sensores de 0-5V) e a tomada de decisão crítica, o que valoriza muito sua experiência como técnico e sua nota na ETEC.
 
 ---
 
